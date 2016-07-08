@@ -5,7 +5,7 @@
 	 * @param  string $content Markdown content
 	 * @return string          Converted content
 	 */
-	function events_process_jetpack_markdown( $content ) {
+	function articles_process_jetpack_markdown( $content ) {
 
 		// If markdown class is defined, convert content
 		if ( class_exists( 'WPCom_Markdown' ) ) {
@@ -32,7 +32,7 @@
 	 * @param  string $suffix   The suffix to denote the markdown version of the content
 	 * @return string           The content
 	 */
-	function events_get_jetpack_markdown( $options, $name, $suffix = '_markdown' ) {
+	function articles_get_jetpack_markdown( $options, $name, $suffix = '_markdown' ) {
 
 		// If markdown class is defined, get markdown content
 		if ( class_exists( 'WPCom_Markdown' ) && array_key_exists( $name . $suffix, $options ) && !empty( $options[$name . $suffix] ) ) {

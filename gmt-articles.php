@@ -5,7 +5,7 @@
  * Plugin URI: https://github.com/cferdinandi/gmt-articles/
  * GitHub Plugin URI: https://github.com/cferdinandi/gmt-articles/
  * Description: Adds an Articles custom post type.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: Chris Ferdinandi
  * Author URI: http://gomakethings.com
  * License: MIT

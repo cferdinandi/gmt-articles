@@ -25,7 +25,7 @@
 			'labels'        => $labels,
 			'description'   => 'Holds our articles and article-specific data',
 			'public'        => true,
-			// 'menu_position' => 5,
+			'menu_position' => 5,
 			'menu_icon'     => 'dashicons-format-aside',
 			'supports'      => array(
 				'title',
@@ -35,6 +35,7 @@
 				'thumbnail',
 				'comments',
 				'wpcom-markdown',
+				'publicize',
 			),
 			'has_archive'   => true,
 			'taxonomies'    => array(
